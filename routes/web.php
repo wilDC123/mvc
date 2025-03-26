@@ -26,3 +26,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('products', ProductController::class);
 Route::resource('categories', CategoryController::class);
 
+
